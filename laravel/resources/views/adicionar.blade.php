@@ -13,7 +13,17 @@
   <body> 
     <div class="container">
         <h1>CEP - Informações</h1>
-        <form action="{{route('buscar')}}" method="GET">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        <form action="{{route('salvar')}}" method="POST">
+            @csrf
             <div class="mb-3">
                 <label>CEP:</label>
                 <input type="text" class="form-control" name="cep" value="{{$cep}}">
