@@ -13,8 +13,7 @@
   <body> 
     <div class="container">
         <h1>CEP</h1>
-        
-        <form>
+        <form action="{{route('buscar')}}" method="GET">
             <div class="mb-3">
                 <label>Informe o CEP:</label>
                 <input type="text" class="form-control" name="cep">
