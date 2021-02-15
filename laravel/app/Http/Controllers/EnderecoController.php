@@ -12,12 +12,22 @@ class EnderecoController extends Controller
         return view('busca');
     }
 
-    public function buscar(
+    public function buscar (
         Request $request
     ) {
         $cep = $request->input('cep');
         // dd($cep);
         $response = Http::get("viacep.com.br/ws/$cep/json/")->json();
         // dd($response);
+
+        return view('adicionar')->with (
+            [
+                'cep' => $request->input('cep'),
+                'logradouro' => $response['logradouro'],
+                'bairro' => $response['bairro'],
+                'cidade' => $response['localidade'],
+                'estado' => $response['uf']
+            ]
+        );    
     }
 }

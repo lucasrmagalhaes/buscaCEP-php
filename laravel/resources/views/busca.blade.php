@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <title>CEP</title>
+    <title>CEP - Início</title>
   </head>
   <body> 
     <div class="container">
-        <h1>CEP</h1>
+        <h1>CEP - Início</h1>
         <form action="{{route('buscar')}}" method="GET">
             <div class="mb-3">
                 <label>Informe o CEP:</label>
