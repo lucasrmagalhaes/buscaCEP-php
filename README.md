@@ -25,7 +25,7 @@
     />
   </a>
   <br />
-  <i><strong>Necessário informar o CEP.</i>
+  <i>Necessário informar o CEP.</i>
 </p>
 
 <hr />
