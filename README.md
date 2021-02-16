@@ -1,4 +1,6 @@
-<h1 align="center">Busca CEP :page_facing_up:</h1>
+<h3 align="center">Busca CEP :page_facing_up:</h3>
+
+<hr />
 
 <details>
   <summary><strong>Home</strong></summary>
