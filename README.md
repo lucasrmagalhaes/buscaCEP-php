@@ -1,9 +1,8 @@
 <h1 align="center">Busca CEP :page_facing_up:</h1>
 
-<h5 align="center">Aplicação criada com o framework <a href="https://laravel.com/">Laravel</a> que consulta, lista e edita dados recebidos da API <a href="https://viacep.com.br/">Via CEP</a> e salva no Banco de Dados MySQL.</h5>
-
-<hr />
-
+<details>
+  <summary><strong>Home</strong></summary>
+<br />
 <p align="center">
   <a href="#">
     <img 
@@ -14,8 +13,13 @@
   <br />
   <i>Lista os endereços cadastrados e no botão "Adicionar CEP" manda para a tela de informar o CEP.</i>
 </p>
+</details>
 
 <hr />
+
+<details>
+  <summary><strong>Informe o CEP</strong></summary>
+<br />
 
 <p align="center">
   <a href="#">
@@ -27,9 +31,13 @@
   <br />
   <i>Necessário informar o CEP.</i>
 </p>
+</details>
 
 <hr />
 
+<details>
+  <summary><strong>Dados Carregados</strong></summary>
+<br />
 <p align="center">
   <a href="#">
     <img 
@@ -40,9 +48,13 @@
   <br />
   <i>Após informar o CEP na tela anterior, é carregado os dados automaticamente.</i>
 </p>
+</details>
 
 <hr />
 
+<details>
+  <summary><strong>Banco de Dados</strong></summary>
+<br />
 <p align="center">
   <a href="#">
     <img 
@@ -53,6 +65,7 @@
   <br />
   <i>Listando os dados recebidos da aplicação.</i>
 </p>
+</details>
 
 <hr />
 
@@ -61,8 +74,11 @@
   
   <br />
   
+  <br />
+  
   <p align="left">
-    <a href="https://web.digitalinnovation.one/lab/construindo-uma-aplicacao-mvc-com-laravel-7-para-consulta-de-cep/learning/8e98cd82-e4c3-4104-8e4f-a08c0b1c5ad6">Projeto realizado na DIO.</a> <br />
+    Plataforma: <a href="https://web.digitalinnovation.one/home">Digital Innovation One</a> <br /> 
+    Desafio: <a href="https://web.digitalinnovation.one/lab/construindo-uma-aplicacao-mvc-com-laravel-7-para-consulta-de-cep/learning/a78f9b42-6a4e-44e1-8379-71719a3812f2">Construindo uma aplicação MVC com Laravel 7 para consulta de CEP.</a>
   </p>
   
 </details>
