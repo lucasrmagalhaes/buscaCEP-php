@@ -1,4 +1,6 @@
-<h1 align="center">Aplicação MVC com Laravel 7 para Consulta de CEP. :page_facing_up:</h1>
+<h1 align="center">MVC com Laravel - Busca CEP :page_facing_up:</h1>
+
+<h5 align="left">
 
 <p align="center">
   <a href="#">
