@@ -75,7 +75,7 @@
   <summary><strong>Fonte</strong></summary>
     <br />
     <p align="left">
-      Plataforma: <a href="https://web.digitalinnovation.one/home">Digital Innovation One</a> <br /> 
+      Plataforma: <a href="https://web.digitalinnovation.one/home">Digital Innovation One.</a> <br /> 
       Desafio: <a href="https://web.digitalinnovation.one/lab/construindo-uma-aplicacao-mvc-com-laravel-7-para-consulta-de-cep/learning/a78f9b42-6a4e-44e1-8379-71719a3812f2">Construindo uma aplicação MVC com Laravel 7 para consulta de CEP.</a>
     </p>
 </details>
