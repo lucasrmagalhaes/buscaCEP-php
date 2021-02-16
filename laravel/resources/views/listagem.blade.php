@@ -1,22 +1,22 @@
-<!doctype html>
-<html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('app');
 
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-<title>CEP - Início</title>
-</head>
-<body> 
-<div class="container">
+@section('content')
     <h1 class="mb-5">Endereços Cadastrados</h1>
 
     <a class="btn btn-success" href="{{route('adicionar')}}">
         Adicionar CEP
     </a>
+
+    @if(session('sucesso'))
+        <div class="alert alert-success" role="alert">
+            {{session('sucesso')}}
+        </div>
+    @endif
+    @if(session('erro'))
+        <div class="alert alert-danger" role="alert">
+            {{session('erro')}}
+        </div>
+    @endif
 
     <table class="table mt-5">
         <thead>
@@ -46,4 +46,4 @@
         @endforeach
         </tbody>
     </table>
-</div>
+@endsection
