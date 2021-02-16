@@ -1,6 +1,6 @@
 <h1 align="center">MVC com Laravel - Busca CEP :page_facing_up:</h1>
 
-<h5 align="left">
+<h5>
 
 <p align="center">
   <a href="#">
