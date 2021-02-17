@@ -80,6 +80,7 @@
       Desafio: <a href="https://web.digitalinnovation.one/lab/construindo-uma-aplicacao-mvc-com-laravel-7-para-consulta-de-cep/learning/a78f9b42-6a4e-44e1-8379-71719a3812f2">Construindo uma aplicação MVC com Laravel 7 para consulta de CEP.</a>
       <br /> <br />
       Framework: <a href="https://laravel.com/">Laravel</a>
+      <br />
       API: <a href="https://viacep.com.br/">Via CEP</a>
     </p>
 </details>
