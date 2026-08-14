@@ -72,6 +72,28 @@
 <hr />
 
 <details>
+  <summary><strong>Configuração</strong></summary>
+    <br />
+    <p align="left">
+      O arquivo <code>laravel/.env</code> não é versionado. Para configurar o projeto:
+    </p>
+
+```bash
+cd laravel
+cp .env.example .env      # copia o modelo de configuração
+php artisan key:generate  # gera um novo APP_KEY
+```
+
+  <p align="left">
+    Em seguida, edite o <code>.env</code> e preencha as credenciais do banco de dados
+    (<code>DB_HOST</code>, <code>DB_PORT</code>, <code>DB_DATABASE</code>, <code>DB_USERNAME</code> e <code>DB_PASSWORD</code>)
+    de acordo com o seu ambiente.
+  </p>
+</details>
+
+<hr />
+
+<details>
   <summary><strong>Fontes</strong></summary>
     <br />
     <p align="left">
